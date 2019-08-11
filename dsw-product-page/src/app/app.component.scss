@@ -1,0 +1,40 @@
+.header_flex
+{
+    display:flex;
+    
+    flex-grow: 1;
+    flex-direction: row;
+    position:relative;
+    justify-content: space-between;
+    
+}
+.rightNav {   
+    position:relative;
+}
+.a {
+    background-color:#686868;
+}
+.p-text{
+ display:flex;
+ justify-content: center;
+}
+.navbar{
+    position:relative;
+    display:flex;
+    flex-direction:row;
+    flex-grow:1;
+    justify-content: left;
+    border-bottom: 1px solid #686868;
+    box-shadow: .5px  #686868;
+}
+.example-button-row button,
+.example-button-row a {
+  margin-right: 8px;
+}
+  
+
+@media only screen and (max-width: 767px) {
+    body {
+      
+    }
+}

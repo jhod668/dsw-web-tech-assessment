@@ -1,0 +1,43 @@
+
+<div class="header_flex">
+  <div>
+    <img height="50" width="100" src="/assets/img/logo.png" />
+  </div>
+  <div class="rightNav">
+    <img height="75" width="74" src="/assets/img/account.gif" />
+    <img height="75" width="74" src="/assets/img/store.gif" />
+    <img height="75" width="74" src="/assets/img/search.gif" />
+    <img height="75" width="74" src="/assets/img/bag.gif" />
+  </div>
+</div>
+<div class="navbar">
+   
+    <div class="example-button-row">
+        <a mat-button routerLink=".">WOMEN</a>
+        <a mat-button routerLink=".">MEN</a>
+        <a mat-button routerLink=".">KIDS</a>
+        <a mat-button routerLink=".">ACCESSORIES</a>
+        <a mat-button routerLink=".">CLEARANCE</a>
+        <a mat-button routerLink=".">BRANDS</a>
+      </div>
+
+</div>
+<div class="p-text">
+  <p>
+      Shop for men's oxford shoes online at DSW, where we carry a variety of dress and casual 
+      oxford styles such as wingtips and cap toe shoes in leather, suede, and other materials.
+  </p>
+</div>
+<div class="content-mid">
+  <b>MEN'S OXFORDS & LACE-UPS</b>
+</div>
+<div class="content-pagbar">
+ Showing 1-60 of 640 Items <button mat-raised-button color="primary">Filter</button><button mat-raised-button color="black">SORT BY:FEATURED</button>
+</div>
+<div>
+  <gallery [flexBorderSize]="3" [flexImageSize]="7" [galleryName]="''" [maxRowsPerPage]="100"
+    (viewerChange)="yourNotificationFunction($event)">
+  </gallery>
+</div>
+
+<router-outlet></router-outlet>
