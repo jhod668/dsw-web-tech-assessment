@@ -4,7 +4,10 @@ import {MatButtonModule} from '@angular/material/button';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {Angular2ImageGalleryModule} from 'angular2-image-gallery';
-import {MatTabsModule} from '@angular/material/tabs';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+import {DemoMaterialModule} from './material-module';
+import {MatPaginatorModule} from '@angular/material/paginator';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,11 @@ import {MatTabsModule} from '@angular/material/tabs';
     BrowserModule,
     AppRoutingModule,
     Angular2ImageGalleryModule,
-    MatButtonModule
+    MatButtonModule,
+    MatCheckboxModule,
+    MatPaginatorModule,
+    BrowserAnimationsModule,
+    DemoMaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
